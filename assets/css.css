@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'DM Sans';
+}
+
+.main-content{
+    background-color:  hsl(27, 61%, 85%);
+    width: 100vw;
+    height: 100vh;
+    padding: 5% 33%;
+    align-items: center;
+}
+.balance{
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.balance h1{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.balance p{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'DM sans';
+}
+.card{
+    background-color: #fff;
+    border-radius: 1rem;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+}
+.card h2{
+    font-size: 4rem;
+}
+.card > p{
+    margin-bottom: 1rem;
+}
+.card > p, .card div h3{
+    font-size: 1.5rem;
+    color: rgb(160, 157, 157);
+    font-family: 'DM Sans';
+}
+.card-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.this-month p{
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+.last-month{
+    margin-top: 2rem;
+}
+.last-month p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+/*.last-month h3*/
